@@ -1,9 +1,36 @@
+body{
+    background-color: #ffffff;
+}
+nav{
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-link{
+    display: inline;
+    padding: 10px;
+}
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 75vh;
+    flex-direction: column;
 }
 .color-panel{
-    display: block;
+    background-color: black;
+    color: #ffffff;
+    padding: 50px 30px;
+    border-radius: 20px;
+}
+.btn-container{
+    padding: 30px;
+}
+
+#btn-click{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
 }
